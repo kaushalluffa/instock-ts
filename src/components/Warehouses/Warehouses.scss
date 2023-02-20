@@ -1,0 +1,37 @@
+@import '../../styles/global';
+
+.warehouses{
+    margin: 1rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgba(19, 24, 44, 0.1);
+    gap: 1rem;
+    &__header{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        &--heading{
+            font-size: $mh1-font-size;
+            line-height: $mh1-line-height;
+        }
+        &--search{
+            padding: 8px;
+            border-radius: 1.25rem;
+            outline: none;
+            border: none;
+            border: 1px solid $instock-slate;
+        }
+        &--button{
+            color: $instock-white;
+            text-align: center;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+            font-size: $mh3-font-size;
+            line-height: $mh3-line-height;
+            border-radius: 1.25rem;
+        }
+    }
+}
