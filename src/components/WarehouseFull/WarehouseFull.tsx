@@ -1,5 +1,6 @@
 import BackArrow from "../../assets/Icons/arrow_back-24px.svg";
 import EditIcon from "../../assets/Icons/edit-24px.svg";
+import ItemInfo from "../ItemInfo/ItemInfo";
 import './WarehouseFull.scss'
 const WarehouseFull = () => {
   return (
@@ -41,6 +42,18 @@ const WarehouseFull = () => {
           </div>
         </div>
       </div>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
+      <ItemInfo name="" category="" quantity={0} status=""/>
     </div>
   );
 };
