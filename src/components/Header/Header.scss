@@ -1,0 +1,27 @@
+@import "../../styles/global";
+.header {
+  background-color: $instock-black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+
+  &__logo {
+    width: 8rem;
+    height: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      background-color: $instock-blue;
+      padding: 0.5rem 1rem;
+      margin: 1rem;
+      color: $instock-white;
+      border-radius: 1.25rem;
+    }
+  }
+}
