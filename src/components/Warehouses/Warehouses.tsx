@@ -10,6 +10,15 @@ const Warehouses = () => {
             <CustomButton variant="primary-blue" className="warehouses__header--button" >+ Add New Warehouse</CustomButton>
         </div>
         <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
+        <SingleWarehouse/>
     </div>
   )
 }

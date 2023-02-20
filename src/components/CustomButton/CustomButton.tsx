@@ -1,7 +1,9 @@
+import { ReactElement } from "react";
+
 type CustomButtonProps = {
-  children: string;
+  children: string | JSX.Element;
   className: string;
-  variant: string;
+  variant?: string;
 } & React.ComponentProps<"a">;
 
 const CustomButton = ({
