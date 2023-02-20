@@ -4,7 +4,20 @@ import CustomButton from "../CustomButton/CustomButton";
 import DeleteIcon from "../../assets/Icons/delete_outline-24px.svg";
 import EditIcon from "../../assets/Icons/edit-24px.svg";
 import "./SingleWarehouse.scss";
-const SingleWarehouse = () => {
+type SingleWarehouseProps = {
+  warehouseName: string;
+  warehouseAddress: string;
+  contactName: string;
+  contactEmail: string;
+  contactPhone: string;
+} & React.ComponentProps<"a">;
+const SingleWarehouse = ({
+  warehouseAddress,
+  warehouseName,
+  contactEmail,
+  contactName,
+  contactPhone,
+}: SingleWarehouseProps) => {
   return (
     <div className="singlewarehouse">
       <div className="singlewarehouse__left">
