@@ -1,0 +1,55 @@
+@import '../../styles/global';
+
+.singleinventory{
+     display: flex;
+  border-bottom: 1px solid $instock-cloud;
+  &__left,
+  &__right {
+    flex: 0 1 50%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    &--label {
+      font-size: $mh4-font-size;
+      line-height: $mh4-line-height;
+      margin-bottom: 4px;
+      color: $instock-slate;
+    }
+    &--button {
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+  &__left {
+    &--link {
+      font-size: $mh3-font-size;
+      line-height: $mh3-line-height;
+      margin-bottom: 1rem;
+    }
+    &--category{
+        font-size: $mp2-font-size;
+        line-height: $mp2-line-height;
+        margin-bottom: 1.25rem;
+    }
+  }
+  &__right {
+    &--status {
+      font-size: $mp3-font-size;
+      line-height: $mp3-line-height;
+      color: $instock-green;
+      background-color: rgba($color: $instock-green, $alpha: 0.1);
+      margin-bottom: 1rem;
+      padding: 4px;
+      text-align: center;
+      width: 60px;
+      border-radius: 1.25rem;
+    }
+    &--qty,&--warehouse{
+        font-size: $mp2-font-size;
+        line-height: $mp2-line-height;
+        margin-bottom: 1rem;
+    }
+  }
+}

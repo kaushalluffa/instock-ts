@@ -9,16 +9,16 @@ const Warehouses = () => {
             <input className="warehouses__header--search" type="search" placeholder="Search..." />
             <CustomButton variant="primary-blue" className="warehouses__header--button" >+ Add New Warehouse</CustomButton>
         </div>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
-        <SingleWarehouse/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
+        <SingleWarehouse warehouseAddress="" warehouseName="" contactEmail="" contactName="" contactPhone=""/>
     </div>
   )
 }

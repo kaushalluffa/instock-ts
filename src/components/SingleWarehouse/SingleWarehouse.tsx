@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import RightChevron from "../../assets/Icons/chevron_right-24px.svg";
 import CustomButton from "../CustomButton/CustomButton";
 import DeleteIcon from "../../assets/Icons/delete_outline-24px.svg";
 import EditIcon from "../../assets/Icons/edit-24px.svg";
