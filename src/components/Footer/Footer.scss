@@ -1,0 +1,25 @@
+@import "../../styles/global";
+
+.footer {
+  background-color: rgba($color: $instock-cloud, $alpha: 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  &__links {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    a {
+      background-color: $instock-blue;
+      color: $instock-white;
+      padding: 0.5rem 1rem;
+      border-radius: 1.25rem;
+    }
+  }
+}

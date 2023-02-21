@@ -7,19 +7,18 @@
   margin: 1rem;
   border-radius: 4px;
   &__heading {
-      padding: 1rem 1.5rem;
-      font-size: $mh1-font-size;
-      line-height: $mh1-line-height;
-      margin-bottom: 1rem;
-      background-color: $instock-cloud;
-    }
-    &__label {
-      padding: 0 1.5rem;
-      font-size: $mh2-font-size;
-      line-height: $mh2-line-height;
-    
-    }
-    input {
+    padding: 1rem 1.5rem;
+    font-size: $mh1-font-size;
+    line-height: $mh1-line-height;
+    margin-bottom: 1rem;
+    background-color: $instock-cloud;
+  }
+  &__label {
+    padding: 0 1.5rem;
+    font-size: $mh2-font-size;
+    line-height: $mh2-line-height;
+  }
+  input {
     margin: 1rem 1.5rem;
     margin-bottom: 1rem;
     padding: 0.5rem 1rem;
