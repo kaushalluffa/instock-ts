@@ -9,11 +9,13 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-body {
+body,
+textarea,
+select {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 img {
   width: 100%;
@@ -32,9 +34,10 @@ li {
   margin: 0;
   padding: 0;
 }
-.primary-blue{
-    background-color: $instock-blue;
+.primary-blue {
+  background-color: $instock-blue;
 }
-.secondary-red{
+.secondary-red {
   background-color: $instock-red;
 }
+

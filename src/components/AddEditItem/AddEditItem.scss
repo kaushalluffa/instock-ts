@@ -1,0 +1,71 @@
+@import "../../styles/global";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 0px 2px 5px rgba(19, 24, 44, 0.381);
+  border-radius: 3px;
+  &__header {
+    display: flex;
+    padding: 1.5rem;
+    border-bottom: 1px solid $instock-cloud;
+    &--heading {
+      display: flex;
+      font-size: $mh1-font-size;
+      line-height: $mh1-line-height;
+      .back-arrow {
+        margin-right: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+  &__itemdetails {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid $instock-cloud;
+    &--heading {
+      font-size: $mh3-font-size;
+      line-height: $mh3-line-height;
+      margin-bottom: 1.5rem;
+    }
+    &--label {
+      font-size: $mh3-font-size;
+      line-height: $mh3-line-height;
+      margin-bottom: 4px;
+    }
+    input,
+    select {
+      border-radius: 1.25rem;
+      border: none;
+      border: 1px solid $instock-cloud;
+      padding: 0.5rem 1rem;
+      margin-bottom: 1.5rem;
+    }
+    textarea {
+      margin-bottom: 1.5rem;
+      border-radius: 1.25rem;
+      min-width: 10rem;
+      height: 7rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid $instock-cloud;
+    }
+    .radios {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      .radio-label{
+        margin-left: 4px;
+      }
+      .in_stock,
+      .out_of_stock {
+        font-size: $mp2-font-size;
+        line-height: $mp2-line-height;
+        
+      }
+    }
+  }
+}
