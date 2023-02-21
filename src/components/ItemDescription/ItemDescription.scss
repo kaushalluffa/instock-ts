@@ -1,0 +1,62 @@
+@import "../../styles/global";
+
+.itemdesc {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px rgba(19, 24, 44, 0.438);
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+    border-bottom: 1px solid $instock-cloud;
+    &--heading {
+      display: flex;
+      align-items: center;
+      font-size: $mh1-font-size;
+      line-height: $mh1-line-height;
+      .edit-icon {
+        margin-right: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+    &--icon {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__details{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &--label{
+        font-size: $mh4-font-size;
+        line-height: $mh4-line-height;
+        margin-bottom: 4px;
+    }
+    &--description,&--category,&--qty,&--warehouse{
+        font-size: $mp2-font-size;
+        line-height: $mp2-line-height;
+        margin-bottom: 1rem;
+    }
+    &--status-qty{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    &--status{
+        font-size: $mp2-font-size;
+        line-height: $mp2-line-height;
+        background-color: rgba($color: $instock-green, $alpha: 0.1);
+        color: $instock-green;
+        border-radius: 1.25rem;
+        padding: 4px 8px;
+        margin-bottom: 1rem;
+    }
+  }
+}
