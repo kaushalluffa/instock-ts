@@ -9,6 +9,7 @@ import SignUp from "./components/SignUp/SignUp";
 import WarehouseFull from "./components/WarehouseFull/WarehouseFull";
 import Warehouses from "./components/Warehouses/Warehouses";
 import "./App.scss";
+import Login from "./components/LogIn/Login";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Warehouses />} />
         <Route path="/signup" element={<SignUp/>}/>
+        <Route path="/login" element={<Login/>}/>
         <Route path="/washington" element={<WarehouseFull />} />
         <Route path="/inventory" element={<AllInventory />} />
         <Route path="/television" element={<ItemDescription/>}/>

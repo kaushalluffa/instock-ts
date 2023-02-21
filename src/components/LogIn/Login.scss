@@ -1,0 +1,48 @@
+@import "../../styles/global";
+
+.login {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(19, 24, 44, 0.271);
+  margin: 1rem;
+  border-radius: 4px;
+  &__heading {
+      padding: 1rem 1.5rem;
+      font-size: $mh1-font-size;
+      line-height: $mh1-line-height;
+      margin-bottom: 1rem;
+      background-color: $instock-cloud;
+    }
+    &__label {
+      padding: 0 1.5rem;
+      font-size: $mh2-font-size;
+      line-height: $mh2-line-height;
+    
+    }
+    input {
+    margin: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1.25rem;
+    border: none;
+    border: 1px solid $instock-cloud;
+  }
+  &__cta {
+    background-color: rgba($color: $instock-cloud, $alpha: 0.3);
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--google {
+      background-color: $instock-white;
+      padding: 0.5rem 1rem;
+      border-radius: 1.25rem;
+    }
+    &--submit {
+      padding: 0.5rem 1rem;
+      border-radius: 1.25rem;
+      background-color: $instock-blue;
+      color: $instock-white;
+    }
+  }
+}
