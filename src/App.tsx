@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
+import AddEditWarehouse from "./components/AddEditWarehouse/AddEditWarehouse";
 import AllInventory from "./components/AllInventory/AllInventory";
 import DeleteWarehouse from "./components/DeleteModal/DeleteModal";
 import Header from "./components/Header/Header";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/washington" element={<WarehouseFull />} />
         <Route path="/inventory" element={<AllInventory />} />
         <Route path="/television" element={<ItemDescription/>}/>
+        <Route path="/edit" element={<AddEditWarehouse/>}/>
       </Routes>
       {/* <DeleteWarehouse/> */}
     </div>

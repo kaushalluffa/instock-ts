@@ -1,0 +1,70 @@
+@import '../../styles/global';
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    box-shadow: 0px 2px 5px rgba(19, 24, 44, 0.381);
+    border-radius: 3px;
+    &__header{
+        display: flex;
+        padding: 1.5rem;
+        border-bottom: 1px solid $instock-cloud;
+        &--heading{
+            display: flex;
+            font-size: $mh1-font-size;
+            line-height: $mh1-line-height;
+            .back-arrow{
+                margin-right: .5rem;
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+    &__warehousedetails{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid $instock-cloud;
+        &--heading{
+            font-size: $mh2-font-size;
+            line-height: $mh2-line-height;
+            margin-bottom: 1.5rem;
+        }
+        &--label{
+            font-size: $mh3-font-size;
+            line-height: $mh3-line-height;
+            margin-bottom: 4px;
+        }
+        input{
+            border-radius: 1.25rem;
+            border: none;
+            border: 1px solid $instock-cloud;
+            padding: .5rem 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+    &__cta{
+        background-color: rgba($color: $instock-cloud, $alpha: .3);
+        padding: 1rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--cancel,&--submit{
+            width: 8rem;
+            text-align: center;
+            border-radius: 1.25rem;
+            padding: .5rem 0;
+            font-size: $mh3-font-size;
+            line-height: $mh3-line-height;
+        }
+        &--cancel{
+            background-color: $instock-white;
+            margin-right: 1rem;
+        }
+        &--submit{
+            background-color: $instock-blue;
+            color: $instock-white;
+        }
+    }
+}
